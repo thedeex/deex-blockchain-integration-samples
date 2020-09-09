@@ -30,7 +30,7 @@ $ python3 setup.py install --user``
 
 ### Python
 
-Пример:  [https://github.com/thedeex/deex-blockchain-integration-samples/python/operations_history.py](https://github.com/thedeex/deex-blockchain-integration-samples/python/operations_history.py)
+Пример:  [https://github.com/thedeex/deex-blockchain-integration-samples/tree/master/python/operations_history.py](https://github.com/thedeex/deex-blockchain-integration-samples/tree/master/python/operations_history.py)
 
 Передаваемые параметры:
 from: имеет формат 1.11.*. (Где номер - ID с последнего обработанного запроса)
@@ -45,7 +45,7 @@ limit Количество результатов за один запрос. Н
 Ключ ID: идентификатор операции (используется для фильтрации запроса)
 Сумма предоставлена с учетом символов после запятой. таким образом, если Ассет имеет 2 символа, наша сумма равна "0.01".
 
-Memo расшифровывается согласно примеру: [https://github.com/thedeex/deex-blockchain-integration-samples/python/memo_decoding.py](https://github.com/thedeex/deex-blockchain-integration-samples/python/memo_decoding.py)
+Memo расшифровывается согласно примеру: https://github.com/thedeex/deex-blockchain-integration-samples/tree/master/python/memo_decoding.py](https://github.com/thedeex/deex-blockchain-integration-samples/tree/master/python/memo_decoding.py)
 
 В данный скрипт требуется передать параметры с ключа memo:
 ``{'from': 'DX000000000000000000000', 'to': 'DX111111111111111111111', 'nonce': '408937899221506', 'message': 'ENCODED_MEMO_MESSAGE'}``
@@ -57,7 +57,7 @@ Memo расшифровывается согласно примеру: [https://
 ## Отправка операций
 
 ### Python
-Запрос на отправку средств происходит согласно примеру: [https://github.com/thedeex/deex-blockchain-integration-samples/python/transfer_opration.py](https://github.com/thedeex/deex-blockchain-integration-samples/python/transfer_opration.py)
+Запрос на отправку средств происходит согласно примеру: [https://github.com/thedeex/deex-blockchain-integration-samples/tree/master/python/transfer_opration.py](https://github.com/thedeex/deex-blockchain-integration-samples/tree/master/python/transfer_opration.py)
 
 Требуемые параметры для отправки:
  - Логин получателя
@@ -71,10 +71,10 @@ Memo расшифровывается согласно примеру: [https://
 ## Получение данных о пользователе (идентификатор,балансы )
 
 ### Python
-Пример: [https://github.com/thedeex/deex-blockchain-integration-samples/python/read_account_data.py](https://github.com/thedeex/deex-blockchain-integration-samples/python/read_account_data.py)
+Пример: [https://github.com/thedeex/deex-blockchain-integration-samples/tree/master/python/read_account_data.py](https://github.com/thedeex/deex-blockchain-integration-samples/tree/master/python/read_account_data.py)
 
 
 ## Получение данных о монете (Идентификатор, количество значений в дробной части)
 
 ### Python
-Пример: [https://github.com/thedeex/deex-blockchain-integration-samples/python/read_asset_data.py](https://github.com/thedeex/deex-blockchain-integration-samples/python/read_asset_data.py)
+Пример: [https://github.com/thedeex/deex-blockchain-integration-samples/tree/master/python/read_asset_data.py](https://github.com/thedeex/deex-blockchain-integration-samples/tree/master/python/read_asset_data.py)
