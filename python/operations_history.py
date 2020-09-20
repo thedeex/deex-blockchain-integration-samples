@@ -30,7 +30,7 @@ set_shared_blockchain_instance(deex)
 
 
 account = Account("test", full=True)
-result = account.history(first=0,  limit=100, only_ops=['transfer']);
+result = account.history(first="1.11.1",  limit=100, only_ops=['transfer']);
 for _ in result:
     print(_);
 
